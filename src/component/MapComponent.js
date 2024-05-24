@@ -71,7 +71,7 @@ const MapComponent = ({lat,long}) => {
       initMap();
     } else {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBXAeO1bvYrd7A8l6XWeNbtDPeTcyYxRuI&libraries=places`;
+      // script.src =`you need to keep your google api`;
       script.onload = initMap;
       document.head.appendChild(script);
     }
