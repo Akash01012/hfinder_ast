@@ -11,18 +11,7 @@ const MapComponent = ({lat,long}) => {
         zoom: 12
       });
 
-      // const userMarker = new window.google.maps.Marker({
-      //   position: pyrmont,
-      //   map: map,
-      //   title: "Your Location",
-      //   icon: {
-      //     path: window.google.maps.SymbolPath.CIRCLE,
-      //     scale: 10,
-      //     fillColor: '#0000CD',  // Red color for your location
-      //     fillOpacity: 1,
-      //     strokeWeight: 0,
-      //   },
-      // });
+      
 
       const userMarker = new window.google.maps.Marker({
         position: pyrmont,
