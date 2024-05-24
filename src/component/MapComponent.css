@@ -1,0 +1,38 @@
+.map{
+    margin-top: 7rem;
+    width: 900px;
+    height: 550px;
+    border-radius: 1rem;
+}
+#legend {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+  }
+  
+  .legend-icon {
+    display: inline-block;
+    margin-right: 5px;
+    height: 24px;
+    width: 24px;
+  }
+.logOut{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ /* .heading{
+    margin-left: 5rem;
+    
+}  */
+
+.heading h1{
+    margin-left: 25rem;
+    color: rgb(56, 253, 237);
+    /* background-color: aqua; */
+}
